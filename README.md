@@ -26,7 +26,7 @@ Currently, two official plugins are available:
 1. Clone the repository
 
 ```
-git clone https://github.com/fguillen/mapapp-fg.git
+git clone https://github.com/fernandouy/maps-app.git
 ```
 
 2. Install dependencies using
