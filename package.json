@@ -28,5 +28,15 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
+  },
+  "author": {
+    "name": "Fernando Gimeno",
+    "url": "https://github.com/fernandouy"
+  },
+  "homepage": "https://mapapp-fg.netlify.app/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fernandouy/maps-app.git"
   }
 }
