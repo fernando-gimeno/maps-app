@@ -2,8 +2,6 @@
 
 Map application for searching locations and tracing routes between two places. This map application was created using Bootstrap, React technologies and we use useContext to maintain the application state, in addition we consume the Mapbox API which we use to display the map, pins and routes.
 
-Currently, two official plugins are available:
-
 ## Features
 
 - Search locations
