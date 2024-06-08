@@ -22,18 +22,25 @@ Currently, two official plugins are available:
 - TypeScript
 
 ## Installation
+
 1. Clone the repository
+
 ```
 git clone https://github.com/fguillen/mapapp-fg.git
 ```
-2. Install dependencies using 
+
+2. Install dependencies using
+
 ```
 yarn
 ```
+
 3. Start development server
+
 ```
 yarn dev
 ```
 
 ## Live Demo
-[Live Demo](https://mapapp-fg.netlify.app/)
+
+<a href="https://mapapp-fg.netlify.app/" target="_blank">Live Demo</a>
