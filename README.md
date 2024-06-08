@@ -12,6 +12,11 @@ Currently, two official plugins are available:
 - Display pins
 - Display routes
 
+
+## Screenshots
+
+![Screenshot of app](https://i.ibb.co/jVRnRV2/mapapp.png)
+
 ## Stack
 
 - React
