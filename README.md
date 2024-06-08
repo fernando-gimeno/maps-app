@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# MapApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Map application for searching locations and tracing routes between two places. This map application was created using Bootstrap, React technologies and we use useContext to maintain the application state, in addition we consume the Mapbox API which we use to display the map, pins and routes.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Search locations
+- Trace routes
+- Display map
+- Display pins
+- Display routes
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Stack
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- Bootstrap
+- useContext
+- Mapbox API
+- Vite
+- TypeScript
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Installation
+1. Clone the repository
+```
+git clone https://github.com/fguillen/mapapp-fg.git
+```
+2. Install dependencies using 
+```
+yarn
+```
+3. Start development server
+```
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Live Demo
+[Live Demo](https://mapapp-fg.netlify.app/)
